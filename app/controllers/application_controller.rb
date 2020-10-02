@@ -14,6 +14,7 @@ class App < Sinatra::Base
     @hero1 = params["team"]["members"][0]["name"]
     @hero1pow =  params["team"]["members"][0]["power"]
     @hero1bio = params["team"]["members"][0]["bio"]
+    
     erb :'team'
   end  
 
