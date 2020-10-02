@@ -14,12 +14,12 @@ class App < Sinatra::Base
     @hero1 = params["team"]["members"][0]["name"]
     @hero1pow =  params["team"]["members"][0]["power"]
     @hero1bio = params["team"]["members"][0]["bio"]
-    @hero1 = params["team"]["members"][0]["name"]
-    @hero1pow =  params["team"]["members"][0]["power"]
-    @hero1bio = params["team"]["members"][0]["bio"]
-    @hero1 = params["team"]["members"][0]["name"]
-    @hero1pow =  params["team"]["members"][0]["power"]
-    @hero1bio = params["team"]["members"][0]["bio"]
+    @hero2 = params["team"]["members"][0]["name"]
+    @hero2pow =  params["team"]["members"][0]["power"]
+    @hero2bio = params["team"]["members"][0]["bio"]
+    @hero3 = params["team"]["members"][0]["name"]
+    @hero3pow =  params["team"]["members"][0]["power"]
+    @hero3bio = params["team"]["members"][0]["bio"]
     erb :'team'
   end  
 
